@@ -22,3 +22,6 @@ for key, value in agent_profile.items():
 
 agent_profile['capabilities'].append("Machine Learning")  # Adding a new capability to the list
 print(f"Updated Capabilities: {', '.join(agent_profile['capabilities'])}")
+
+agent_profile["status"] ="Back and Better than ever!"  # Updating the status value
+print(f"Updated Status: {agent_profile['status']}")
